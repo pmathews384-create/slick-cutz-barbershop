@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Elite Cuts - Book Now</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>✂️ Elite Cuts Barbershop</h1>
+    <p>Book your cut in 30 seconds</p>
+
+    <label>Choose Service</label>
+    <select id="service">
+      <option value="Haircut - K80">Haircut - K80</option>
+      <option value="Beard Trim - K50">Beard Trim - K50</option>
+      <option value="Haircut + Beard - K120">Haircut + Beard - K120</option>
+    </select>
+
+    <label>Choose Barber</label>
+    <select id="barber">
+      <option value="John">John - Barber 1</option>
+      <option value="Mike">Mike - Barber 2</option>
+    </select>
+
+    <label>Date</label>
+    <input type="date" id="date">
+
+    <label>Time Slot</label>
+    <select id="time">
+      <option>09:00</option><option>10:00</option><option>11:00</option>
+      <option>12:00</option><option>13:00</option><option>14:00</option>
+      <option>15:00</option><option>16:00</option><option>17:00</option><option>18:00</option>
+    </select>
+
+    <label>Your Name</label>
+    <input type="text" id="name" placeholder="e.g. Mathews">
+
+    <label>Phone (MTN/Airtel)</label>
+    <input type="tel" id="phone" placeholder="097...">
+
+    <button onclick="bookNow()">Book Now</button>
+    <p id="message"></p>
+    <a href="admin.html">Barber Login →</a>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
