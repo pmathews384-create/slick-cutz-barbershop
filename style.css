@@ -1,6 +1,6 @@
-body{font-family:Arial;background:#f4f4f4;margin:0;padding:20px}
+body{font-family:Arial;background:#160101;margin:0;padding:20px}
 .container{max-width:400px;margin:auto;background:white;padding:20px;border-radius:12px;box-shadow:0 2px 10px rgba(0,0,0,0.1)}
 label{display:block;margin-top:15px;font-weight:bold}
-select,input{width:100%;padding:10px;margin-top:5px;border-radius:8px;border:1px solid #ccc}
-button{width:100%;margin-top:20px;padding:12px;background:black;color:white;border:none;border-radius:8px;font-size:16px;cursor:pointer}
+select,input{width:100%;padding:10px;margin-top:5px;border-radius:8px;border:1px solid #4453a8}
+button{width:100%;margin-top:20px;padding:12px;background:black;color:rgba(102, 56, 56, 0.808);border:none;border-radius:8px;font-size:16px;cursor:pointer}
 #message{margin-top:10px;font-weight:bold}
