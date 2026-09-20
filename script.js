@@ -19,7 +19,7 @@ function bookNow(){
   // Check double booking for same barber + date + time
   let clash = bookings.find(b => b.barber==booking.barber && b.date==booking.date && b.time==booking.time);
   if(clash){
-    document.getElementById('message').innerText = `${booking.barber} is busy at ${booking.time}. Choose another time.`;
+    document.getElementById('message').innerText = `{booking.barber} is busy at ${booking.time}. Choose another time.`;
     return;
   }
 
